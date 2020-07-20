@@ -2,6 +2,7 @@ require "sinatra"
 require "sinatra/reloader" if development?
 require "pry-byebug"
 require "better_errors"
+require_relative "cookbook"
 
 set :bind, '0.0.0.0'
 
