@@ -1,0 +1,5 @@
+<ul>
+  <% @recipes.each_with_index do |recipe, index| %>
+    <li><%= index + 1 %> <%= recipe.name %> <%= recipe.description %> </li>
+  <% end %>
+</ul>
